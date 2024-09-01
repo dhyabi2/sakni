@@ -6,12 +6,9 @@ const DownloadPage = () => {
     { name: 'App.jsx', path: '/src/App.jsx' },
     { name: 'index.js', path: '/src/index.js' },
     { name: 'styles.css', path: '/src/styles.css' },
-    // Add more files as needed
   ];
 
   const handleDownload = (filePath) => {
-    // In a real application, this would trigger a file download
-    // For demonstration purposes, we'll just log the file path
     console.log(`Downloading file: ${filePath}`);
   };
 
